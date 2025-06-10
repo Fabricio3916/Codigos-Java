@@ -41,8 +41,9 @@ public class Main {
         treeSet.add("Sakura");
         treeSet.add("Kakashi");
 
-        System.out.println("\nTreeSet (Ordem Natural):");
-        System.out.println(treeSet);
+
+
+        treeSet.forEach(System.out::println);
 
     }
 }
